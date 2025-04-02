@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-df = pd.read_csv("./sample_data/USA_Housing.csv") 
+df = pd.read_csv("USA_Housing.csv") 
 
 # Get the first 10 rows
 print(df.head(10))
